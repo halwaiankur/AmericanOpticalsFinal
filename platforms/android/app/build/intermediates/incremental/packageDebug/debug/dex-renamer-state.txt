@@ -1,0 +1,4 @@
+#Mon Apr 23 13:17:47 EDT 2018
+base.0=C\:\\Users\\Ankur Halwai\\Documents\\AO_2\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+renamed.0=classes.dex
+file.0=C\:\\Users\\Ankur Halwai\\Documents\\AO_2\\platforms\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0\\classes.dex

@@ -1,0 +1,25 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-qrscanner": {
+      "PACKAGE_NAME": "com.example.welcome"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.example.welcome"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.example.welcome"
+    }
+  },
+  "dependent_plugins": {
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.example.welcome"
+    }
+  }
+}

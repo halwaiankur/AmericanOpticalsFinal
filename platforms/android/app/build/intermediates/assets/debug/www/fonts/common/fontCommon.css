@@ -1,0 +1,346 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "portal-font-common";
+  src:url("fonts/portal-font-common.eot");
+  src:url("fonts/portal-font-common.eot?#iefix") format("embedded-opentype"),
+    url("fonts/portal-font-common.woff") format("woff"),
+    url("fonts/portal-font-common.ttf") format("truetype"),
+    url("fonts/portal-font-common.svg#portal-font-common") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "portal-font-common" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="common-"]:before,
+[class*=" common-"]:before {
+  font-family: "portal-font-common" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.common-accident:before {
+  content: "a";
+}
+.common-add:before {
+  content: "b";
+}
+.common-add-folder:before {
+  content: "c";
+}
+.common-add-user:before {
+  content: "d";
+}
+.common-alert:before {
+  content: "e";
+}
+.common-ambulance:before {
+  content: "f";
+}
+.common-assign-user:before {
+  content: "g";
+}
+.common-attachment:before {
+  content: "h";
+}
+.common-boy:before {
+  content: "i";
+}
+.common-business:before {
+  content: "j";
+}
+.common-calculator:before {
+  content: "k";
+}
+.common-calendar:before {
+  content: "l";
+}
+.common-call:before {
+  content: "m";
+}
+.common-chat:before {
+  content: "n";
+}
+.common-check:before {
+  content: "o";
+}
+.common-checklist:before {
+  content: "p";
+}
+.common-child:before {
+  content: "q";
+}
+.common-circle:before {
+  content: "r";
+}
+.common-clock:before {
+  content: "s";
+}
+.common-close:before {
+  content: "t";
+}
+.common-close-1:before {
+  content: "u";
+}
+.common-copy:before {
+  content: "v";
+}
+.common-coverage:before {
+  content: "w";
+}
+.common-crop:before {
+  content: "x";
+}
+.common-customer-care:before {
+  content: "y";
+}
+.common-dashboard:before {
+  content: "z";
+}
+.common-dental:before {
+  content: "A";
+}
+.common-disability:before {
+  content: "B";
+}
+.common-dislike:before {
+  content: "C";
+}
+.common-document:before {
+  content: "D";
+}
+.common-dollar:before {
+  content: "E";
+}
+.common-down-arrow:before {
+  content: "F";
+}
+.common-download:before {
+  content: "G";
+}
+.common-edit:before {
+  content: "H";
+}
+.common-email:before {
+  content: "I";
+}
+.common-employees:before {
+  content: "J";
+}
+.common-euro:before {
+  content: "K";
+}
+.common-expand:before {
+  content: "L";
+}
+.common-facebook:before {
+  content: "M";
+}
+.common-family-coverage:before {
+  content: "N";
+}
+.common-files:before {
+  content: "O";
+}
+.common-flag:before {
+  content: "P";
+}
+.common-folder:before {
+  content: "Q";
+}
+.common-folder-1:before {
+  content: "R";
+}
+.common-food:before {
+  content: "S";
+}
+.common-girl:before {
+  content: "T";
+}
+.common-global:before {
+  content: "U";
+}
+.common-googleplus:before {
+  content: "V";
+}
+.common-graph:before {
+  content: "W";
+}
+.common-grid-view:before {
+  content: "X";
+}
+.common-group:before {
+  content: "Y";
+}
+.common-home:before {
+  content: "Z";
+}
+.common-hospital:before {
+  content: "0";
+}
+.common-id-card:before {
+  content: "1";
+}
+.common-image:before {
+  content: "2";
+}
+.common-info-tip:before {
+  content: "3";
+}
+.common-infographic:before {
+  content: "4";
+}
+.common-instagram:before {
+  content: "5";
+}
+.common-insurance:before {
+  content: "6";
+}
+.common-law:before {
+  content: "7";
+}
+.common-left-arrow:before {
+  content: "8";
+}
+.common-like:before {
+  content: "9";
+}
+.common-linkedin:before {
+  content: "!";
+}
+.common-location:before {
+  content: "\"";
+}
+.common-lock:before {
+  content: "#";
+}
+.common-make-a-payment:before {
+  content: "$";
+}
+.common-medical-kit:before {
+  content: "%";
+}
+.common-member-id:before {
+  content: "&";
+}
+.common-menu:before {
+  content: "'";
+}
+.common-minus:before {
+  content: "(";
+}
+.common-mobile:before {
+  content: ")";
+}
+.common-monitor:before {
+  content: "*";
+}
+.common-notepad:before {
+  content: "+";
+}
+.common-password:before {
+  content: ",";
+}
+.common-payment:before {
+  content: "-";
+}
+.common-pdf-copy:before {
+  content: ".";
+}
+.common-pie-chart:before {
+  content: "/";
+}
+.common-play:before {
+  content: ":";
+}
+.common-pound:before {
+  content: ";";
+}
+.common-power:before {
+  content: "<";
+}
+.common-print:before {
+  content: "=";
+}
+.common-products:before {
+  content: ">";
+}
+.common-question:before {
+  content: "?";
+}
+.common-remove-user:before {
+  content: "@";
+}
+.common-renew:before {
+  content: "[";
+}
+.common-right-arrow:before {
+  content: "]";
+}
+.common-rupee:before {
+  content: "^";
+}
+.common-save:before {
+  content: "_";
+}
+.common-search:before {
+  content: "`";
+}
+.common-settings:before {
+  content: "{";
+}
+.common-share:before {
+  content: "|";
+}
+.common-tag:before {
+  content: "}";
+}
+.common-trash:before {
+  content: "~";
+}
+.common-tumblr:before {
+  content: "\\";
+}
+.common-twitter:before {
+  content: "\e000";
+}
+.common-unlock:before {
+  content: "\e001";
+}
+.common-up-arrow:before {
+  content: "\e002";
+}
+.common-upload:before {
+  content: "\e003";
+}
+.common-user:before {
+  content: "\e004";
+}
+.common-view:before {
+  content: "\e005";
+}
+.common-warning:before {
+  content: "\e006";
+}
+.common-youtube:before {
+  content: "\e007";
+}
